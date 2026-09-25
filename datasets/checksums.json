@@ -1,0 +1,23 @@
+{
+  "references/supercritical-log-offset--04.45.h5": "dd4dd25c3f13ba75bb62ac0aa42ec1e25d51a4234f7a4b66347141db8b19ce77",
+  "references/amplitude-0.1-grid-256.h5": "97918cf14d678063a3cadecc39cc86a45aacb09a1a47e8773c46bd36468ee1cf",
+  "pretrained/amplitude-0.1.pt": "3a56e90c5c86c9ffb90b3e0a7677fa1b2618c70225950b09235435e996aabc37",
+  "references/amplitude-0.10625-grid-256.h5": "8fdbe77a0d874da94cf6aae054c08aa2ed915c603cf6008c985d49e515c7411e",
+  "pretrained/amplitude-0.10625.pt": "ca9c43aa8eefaef403ded77a6ed185fb68449445ebcdf04f62dbe5f359e4d1a5",
+  "references/amplitude-0.1125-grid-128.h5": "e44a2303bd6fb17e5f60846efd70ce90ecab4909ec597c507370b2ffd550c74e",
+  "pretrained/amplitude-0.1125.pt": "758204b9c5ede9a5fc853441ef2599bdd3cf019c27a648cba94f31c970db5809",
+  "references/amplitude-0.125-grid-128.h5": "3751f1ceb13d303c34cd2d731e5dc63d5d09057adc5c28a1f495bbf27f5bb46b",
+  "pretrained/amplitude-0.125.pt": "69d8ad920c78d17a61e248c3d31cb3eb3ef48fe679bb54a923442a8f066bbb8b",
+  "references/supercritical-log-offset--04.65.h5": "a5a801e4b11fa9ae098197614c13102cf091f5e569da701db2db241a5d535757",
+  "references/supercritical-log-offset--04.85.h5": "52013fa22348c8b7991b3c4e1cb9791ee6b78a7a293ae690ced071a0d2b14f5c",
+  "references/supercritical-log-offset--06.05.h5": "e8a57a630afee4b4c4fbe168d6fcebff8854244a2752f890f00c4319ebd01729",
+  "references/amplitude-0.1-grid-128.h5": "96840c5a34802173d603dd685e8656b93406459a8cd723521ef114ea28334c9b",
+  "references/amplitude-0.10625-grid-128.h5": "6a9a94a9a13bb7983f303fc87ba71eddfcc77ccd6f846495b84b8725ad516aea",
+  "references/amplitude-0.10625-grid-64.h5": "ce76619bfd5fd83feba45dc437fc86713f2a227f839cb2badd4deb4d4d64c294",
+  "references/amplitude-0.1125-grid-256.h5": "79346757bfb5bbb101824452b4227f1398dd51bc12f8691ec1981d8bef185c22",
+  "references/amplitude-0.1125-grid-64.h5": "2f9eee0167f2696849d9c178ad2119166230478d9e6ce1c33ee0b260985158fc",
+  "references/amplitude-0.125-grid-256.h5": "c58511feacad432eec8bdbc8bf272580b7ea8b4249fa77f99f11c145d16f2851",
+  "references/amplitude-0.125-grid-64.h5": "9f0eefb0eb0ba0e844d5d124faba4fe663de4bb19c83b2a2c1911a21f72536f2",
+  "references/amplitude-0.1-grid-64.h5": "e44dadfc9f6463c02509d69d469344d0d7f2b357fef647cffb9a1c320aefcea3",
+  "experiments.json": "1d5e71c8ed3d6e4f34f76d9c77d904ebe9a6da2760d1ada2d9ddcd0ea3ef02ad"
+}

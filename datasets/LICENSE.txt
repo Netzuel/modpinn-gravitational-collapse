@@ -1,0 +1,21 @@
+Numerical data and pretrained examples
+
+The MIT licence at the repository root applies to the software and its
+software documentation. The numerical reference data retain their original
+citation-based distribution terms:
+
+Use and distribution of the data are permitted, and reproduction in any medium
+is allowed, provided that an appropriate citation is given.
+
+The numerical simulations are attributed to Matthew W. Choptuik. The ModPINN
+software and trained examples are attributed to Antonio Ferrer-Sánchez and the
+associated paper. Preserve these attributions when redistributing these files.
+
+Paper: https://doi.org/10.1088/2632-2153/ae5459
+Public numerical-data release: https://doi.org/10.5281/zenodo.18687035
+Foundational numerical work: https://doi.org/10.1103/PhysRevLett.70.9
+
+The bundled HDF5 files are the processed reference arrays used by the paper's
+training scripts. The external data release is a citation, not a bundled
+sub-repository or a runtime download dependency. No new licence is asserted
+for third-party numerical data.

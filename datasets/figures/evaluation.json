@@ -1,0 +1,115 @@
+{
+  "scope": "CPU evaluation of retained checkpoints; no retraining or multi-seed statistics",
+  "profile_selection": "Earliest reference time containing the maximum finite compactness",
+  "profile_values": "Raw network fields; diagnostic clipping applies only to error metrics",
+  "spacetime_values": "Raw network fields on reference coordinates; reference NaNs masked",
+  "spacetime_axes": "Horizontal: radius on linear scale; vertical: time",
+  "reference_contours": {
+    "phi": [
+      -0.2,
+      -0.05,
+      0.05,
+      0.2
+    ],
+    "alpha": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "Q": [
+      0.2,
+      0.5,
+      0.8
+    ]
+  },
+  "cases": {
+    "best/amplitude-0.1": {
+      "relative_l2_phi": 0.02781924863581201,
+      "relative_l2_alpha": 0.008745622242175078,
+      "relative_l2_Q": 0.01489494820734728,
+      "relative_l2_sum": 0.05145981908533437,
+      "points": 65536,
+      "profile_time": 3.2549019607843137,
+      "profile_points": 256,
+      "spacetime_shape": [
+        256,
+        256
+      ],
+      "reference_nan_counts": [
+        74,
+        74,
+        74
+      ],
+      "reference": "references/amplitude-0.1-grid-256.h5",
+      "reference_sha256": "97918cf14d678063a3cadecc39cc86a45aacb09a1a47e8773c46bd36468ee1cf",
+      "checkpoint": "pretrained/amplitude-0.1.pt",
+      "checkpoint_sha256": "3a56e90c5c86c9ffb90b3e0a7677fa1b2618c70225950b09235435e996aabc37"
+    },
+    "best/amplitude-0.10625": {
+      "relative_l2_phi": 0.02941508649134439,
+      "relative_l2_alpha": 0.007806921167646257,
+      "relative_l2_Q": 0.01468216367083705,
+      "relative_l2_sum": 0.0519041713298277,
+      "points": 65536,
+      "profile_time": 3.6078431372548967,
+      "profile_points": 256,
+      "spacetime_shape": [
+        256,
+        256
+      ],
+      "reference_nan_counts": [
+        85,
+        85,
+        85
+      ],
+      "reference": "references/amplitude-0.10625-grid-256.h5",
+      "reference_sha256": "8fdbe77a0d874da94cf6aae054c08aa2ed915c603cf6008c985d49e515c7411e",
+      "checkpoint": "pretrained/amplitude-0.10625.pt",
+      "checkpoint_sha256": "ca9c43aa8eefaef403ded77a6ed185fb68449445ebcdf04f62dbe5f359e4d1a5"
+    },
+    "best/amplitude-0.1125": {
+      "relative_l2_phi": 0.2529282462864877,
+      "relative_l2_alpha": 0.02578152328107332,
+      "relative_l2_Q": 0.18578772048419448,
+      "relative_l2_sum": 0.46449749005175545,
+      "points": 16384,
+      "profile_time": 9.763779527559048,
+      "profile_points": 128,
+      "spacetime_shape": [
+        128,
+        128
+      ],
+      "reference_nan_counts": [
+        39,
+        39,
+        39
+      ],
+      "reference": "references/amplitude-0.1125-grid-128.h5",
+      "reference_sha256": "e44a2303bd6fb17e5f60846efd70ce90ecab4909ec597c507370b2ffd550c74e",
+      "checkpoint": "pretrained/amplitude-0.1125.pt",
+      "checkpoint_sha256": "758204b9c5ede9a5fc853441ef2599bdd3cf019c27a648cba94f31c970db5809"
+    },
+    "best/amplitude-0.125": {
+      "relative_l2_phi": 0.16980351546063568,
+      "relative_l2_alpha": 0.007318640640224312,
+      "relative_l2_Q": 0.03357819521470611,
+      "relative_l2_sum": 0.2107003513155661,
+      "points": 16384,
+      "profile_time": 9.999999999999979,
+      "profile_points": 128,
+      "spacetime_shape": [
+        128,
+        128
+      ],
+      "reference_nan_counts": [
+        34,
+        34,
+        34
+      ],
+      "reference": "references/amplitude-0.125-grid-128.h5",
+      "reference_sha256": "3751f1ceb13d303c34cd2d731e5dc63d5d09057adc5c28a1f495bbf27f5bb46b",
+      "checkpoint": "pretrained/amplitude-0.125.pt",
+      "checkpoint_sha256": "69d8ad920c78d17a61e248c3d31cb3eb3ef48fe679bb54a923442a8f066bbb8b"
+    }
+  }
+}

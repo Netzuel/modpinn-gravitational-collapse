@@ -1,0 +1,83 @@
+{
+  "physical": {
+    "parameters": {
+      "sigma": 1.0,
+      "q": 2.0,
+      "r_0": 0,
+      "phi_0": 0.1,
+      "eps_causality": 0.1,
+      "eps_spatial": 0.02,
+      "domain_step": 1.0,
+      "t_range": [
+        0,
+        10
+      ],
+      "x_range": [
+        0,
+        10
+      ],
+      "N_t": "8",
+      "N_x": "8"
+    }
+  },
+  "neural_parameters": {
+    "general_parameters": {
+      "num_inputs": 2,
+      "num_outputs": 3,
+      "number_hidden": 1,
+      "number_neurons": 8,
+      "n_freq": 32,
+      "scale": 2.0,
+      "num_experts": [
+        3,
+        3,
+        3
+      ]
+    },
+    "loss_function_parameters": {
+      "w_initial": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "w_boundary": [
+        1.0,
+        1.0
+      ],
+      "w_collocation": 1.0,
+      "w_eq1": 1.0,
+      "w_eq2": 1.0,
+      "w_eq3": 1.0,
+      "w_bal": 0.001,
+      "epsilon_BH": 0.0001
+    }
+  },
+  "training_process": {
+    "device": "cpu",
+    "DTYPE": "torch.float32",
+    "import": {
+      "data_path": "unused-by-fixture",
+      "load_weights": false
+    },
+    "export": {
+      "path_images": "Images/",
+      "path_data": "Models_Data/",
+      "path_models": "Models_Data/Model_Saved/",
+      "save_each_images": 10000,
+      "save_each_images_domain": 10000,
+      "save_each_data": 10000
+    },
+    "parameters": {
+      "hidden_activation": "nn.Tanh()",
+      "optimizer": "Adam",
+      "learning_rate": 0.0001,
+      "epochs": 100001,
+      "random_seed": 7
+    },
+    "domain_updating": {
+      "update_from": 0,
+      "update_each": 1
+    }
+  }
+}

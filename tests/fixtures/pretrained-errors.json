@@ -1,0 +1,49 @@
+{
+  "provenance": "Minimum-error entries in the original training histories for the four bundled checkpoints; used as independent evaluation fixtures.",
+  "cases": {
+    "best/amplitude-0.1": {
+      "archived_minimum_index": 99744,
+      "archived_errors": {
+        "l2": 0.051459893584251404,
+        "l2_φ": 0.027819253504276276,
+        "l2_α": 0.008745621889829636,
+        "l2_Q": 0.014895017258822918
+      },
+      "current_error_sum": 0.05145981908533437,
+      "sum_absolute_difference": 7.449891703537048e-8
+    },
+    "best/amplitude-0.10625": {
+      "archived_minimum_index": 97256,
+      "archived_errors": {
+        "l2": 0.051904164254665375,
+        "l2_φ": 0.029415089637041092,
+        "l2_α": 0.007806922309100628,
+        "l2_Q": 0.01468215137720108
+      },
+      "current_error_sum": 0.0519041713298277,
+      "sum_absolute_difference": 7.075162324066131e-9
+    },
+    "best/amplitude-0.1125": {
+      "archived_minimum_index": 73086,
+      "archived_errors": {
+        "l2": 0.46449756622314453,
+        "l2_φ": 0.2529282867908478,
+        "l2_α": 0.025781521573662758,
+        "l2_Q": 0.18578778207302094
+      },
+      "current_error_sum": 0.46449749005175545,
+      "sum_absolute_difference": 7.617138908511123e-8
+    },
+    "best/amplitude-0.125": {
+      "archived_minimum_index": 34360,
+      "archived_errors": {
+        "l2": 0.21070031821727753,
+        "l2_φ": 0.16980348527431488,
+        "l2_α": 0.007318639196455479,
+        "l2_Q": 0.033578190952539444
+      },
+      "current_error_sum": 0.2107003513155661,
+      "sum_absolute_difference": 3.3098288582111834e-8
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modpinn-collapse"
+version = "1.0.0"
+description = "Self-contained ModPINN training examples for spherical scalar-field collapse"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["torch==2.11.0", "numpy==2.2.5", "h5py==3.16.0", "pytorch-optimizer==3.10.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "matplotlib>=3.8", "nbclient>=0.10", "nbformat>=5.10", "ipykernel>=6", "jupyter-client>=8"]
+figures = ["matplotlib>=3.8"]
+notebooks = ["jupyterlab>=4", "ipykernel>=6", "matplotlib>=3.8"]
+
+[project.scripts]
+modpinn = "modpinn.training:main"
+
+[tool.setuptools]
+packages = ["modpinn", "modpinn.data", "modpinn.docs"]
+include-package-data = false
+
+[tool.setuptools.package-dir]
+"modpinn" = "src/modpinn"
+"modpinn.data" = "datasets"
+"modpinn.docs" = "docs"
+
+[tool.setuptools.package-data]
+"modpinn.data" = ["*.json", "*.txt", "references/*.h5", "pretrained/*.pt"]
+
+"modpinn.docs" = ["*.md", "examples/*.md", "examples/*.ipynb"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pyright]
+include = ["src", "tests"]
+extraPaths = ["src"]
+pythonVersion = "3.10"
+typeCheckingMode = "basic"
